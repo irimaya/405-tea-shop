@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+/* Reset */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Main Styling */
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	background: #66a1ab;
+	scroll-behavior: smooth;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.75rem;
+}
+h4 {
+	font-size: 1.5rem;
+}
+h5 {
+	font-size: 1.25rem;
+}
+h6 {
+	font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 15px;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7em;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.large {
+	font-size: 20px;
+}
+.small {
+	font-size: 12px;
+}
+
+.display-1 {
+	font-size: 7rem;
+	line-height: 1em;
+	font-weight: 900;
+	font-style: italic;
+	text-transform: uppercase;
+}
+.display-2 {
+	font-size: 3rem;
+	font-family: 'Montaga', serif;
+	font-weight: 300;
+}
+.display-3 {
+	font-size: 1.7rem;
+	font-weight: 100;
+}
+
+.display-2,
+.display-3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 15px;
+	padding: 12px 45px;
+	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-radius: 4px;
+}
+
+/* .btn-outline {
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 50px;
+	text-transform: uppercase;
+}
+
+.btn-outline:hover {
+	background: #820a24;
+} */
+
+.btn-dark {
+	background: #edd84f;
+	border: 1px solid #edd84f;
+	color: #000;
+	border-radius: 50px;
+	text-transform: uppercase;
+}
+
+.btn-dark:hover {
+	background: #4d4d4d;
+}
+
+.btn-dark-shop {
+	background: #edd84f;
+	border: 1px solid #edd84f;
+	color: #fff;
+	border-radius: 50px;
+	padding: 12px 60px;
+	margin-top: 10px;
+}
+
+.bk-black {
+	background: #000;
+}
+
+.bk-white {
+	background: #eefaff;
+	color: #000;
+}
+
+.text-secondary {
+	color: #edd84f;
+}
+
+.text-dark {
+	color: #000 !important;
+}
+
+form .form-control {
+	display: block;
+	padding: 7px 12px;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	border: 1px solid #ced4da;
+	border-radius: 4px;
+}
+
+.flex {
+	display: flex;
+	gap: 30px;
+}
+
+.flex-fixed {
+	display: flex;
+	gap: 30px;
+}
+
+/* Padding */
+.p-1 {
+	padding: 150px 0;
+}
+
+.p-2 {
+	padding: 100px 0;
+}
+
+.p-3 {
+	padding: 40px 0;
+}
+
+.p-4 {
+	padding: 70px 0;
+}
+
+.pb-1 {
+	padding-bottom: 50px;
+}
+
+.pb-2 {
+	padding-bottom: 20px;
+}
+
+.pt-1 {
+	padding-top: 130px;
+}
+
+/* Mainheader */
+.mainheader {
+	background: url('/images/showcase.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	/* height: 100vh; */
+	height: 100%;
+}
+
+/* Navbar */
+.navbar {
+	padding-top: 30px;
+}
+
+.navbar .logo {
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.navbar span {
+	font-size: 2rem;
+}
+
+.navbar ul {
+	display: flex;
+	padding-top: 5px;
+}
+
+.navbar ul li {
+	margin-left: 20px;
+}
+
+.navbar ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 200;
+}
+
+.navbar a:hover {
+	color: #edd84f;
+}
+
+.navbar .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+/* Showcase */
+.showcase .flex-title p {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1.6rem;
+}
+
+.showcase .flex-title {
+	text-align: right;
+}
+
+.flex-social {
+	margin-left: auto;
+	justify-content: flex-end;
+	padding-top: 80px;
+	/* color: rgba(250, 250, 250, 0.7); */
+}
+
+.flex-social a {
+	color: #fff;
+	padding-top: 10px;
+	/* color: rgba(250, 250, 250, 0.7); */
+}
+
+.flex-social p {
+	padding-right: 40px;
+}
+
+/* Features */
+#features {
+	background: #000;
+}
+
+#features .flex-box {
+	flex: 1;
+}
+
+/* Shop */
+#shop .flex-box {
+	flex: 1;
+}
+
+#shop .text-tag {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 60px;
+}
+
+#shop h4 {
+	font-family: 'Montaga', serif;
+	font-size: 2rem;
+}
+
+/* About */
+#about {
+	background: url('/images/about.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#about .flex-box {
+	/* flex: 1; */
+	/* padding-top: 50px; */
+	text-align: center;
+}
+
+#about h5 {
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+/* Testimonials */
+#testimonials .flex-box {
+	padding: 40px 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#testimonials .flex-box ul {
+	display: flex;
+	gap: 10px;
+	color: #ffc038;
+	padding-bottom: 20px;
+}
+
+#testimonials img {
+	width: 60px;
+	border-radius: 50%;
+	margin-top: 15px;
+}
+
+/* Join */
+#join .flex-box {
+	flex: 3;
+}
+
+#join h3,
+#join h2 {
+	text-align: left;
+}
+
+#join .flex-box-form {
+	flex: 1;
+	margin-top: 30px;
+}
+
+#join button {
+	border-radius: 0;
+}
+
+#join .form-control,
+#join button {
+	width: 100%;
+}
+
+#join button {
+	margin-top: 10px;
+}
+
+/* Footer */
+#mainfooter {
+	text-align: center;
+	padding: 30px;
+}
